@@ -49,7 +49,7 @@ String generate({
     ..write(
       switch (owner) {
         OwnerIdentifier.iso => 'iso',
-          OwnerIdentifier.unregistered => '-//',
+        OwnerIdentifier.unregistered => '-//',
         OwnerIdentifier.registered => '+//',
       },
     )
